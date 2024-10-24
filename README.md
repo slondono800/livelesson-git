@@ -12,3 +12,10 @@
 `git diff`: compare current uncommited state with last known git state
   -`git diff --staged`: runs git diff between the staging area and the last known state
 `git diff HEAD~HEAD<NUMBER>`: compares HEAD with commit <NUMBER> ago (relative)
+`git diff <HASH>`: compares HEAD with the commit in <HASH>
+
+`git restore --source <HASH OR HEAD~>`: restore file to <HASH OR HEAD~>
+    `git checkout <HASH OR HEAD~>`: restores file to <HASH OR HEAD~>
+        `git checkout <HASH OR HEAD~>`: if you forget the file, you end up in detached head state
+        `git checkout master/main`: go back to master/main
+        `git switch master/main`: go back to master/main
