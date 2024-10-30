@@ -24,7 +24,7 @@
         - `git checkout master/main`: go back to master/main
         - `git switch master/main`: go back to master/main
 
-## working with remotes
+## Working with remotes
 
 - `git remote add <NAME> <URL>`: adds the <URL> as a remote with the name <NAME>
     <NAME> is by convention called `origin`
@@ -33,3 +33,11 @@
 - `git push <WHERE> <WHAT>`: pushes the <WHAT> branch to <WHERE>
     -`git push origin master`
 - `git pull <WHERE> <WHAT>`: pulls the <WHAT> branch in <WHERE> to local computer
+
+## branches
+
+-`git branch <NAME>`: create branch <NAME> where you are (HEAD)
+-`git switch <NAME>`: move to the branch <NAME>
+  -`git checkout <NAME>`: also move to the branch <NAME>
+-`git switch -c <NAME>`: create and move to the branch <NAME> in 1 command
+  -`git checkout -b <NAME>`: also create and move to the branch <NAME> in 1 command 
