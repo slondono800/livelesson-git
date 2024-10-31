@@ -34,7 +34,7 @@
     -`git push origin master`
 - `git pull <WHERE> <WHAT>`: pulls the <WHAT> branch in <WHERE> to local computer
 
-## branches
+## Branches
 
 -`git branch <NAME>`: create branch <NAME> where you are (HEAD)
 -`git switch <NAME>`: move to the branch <NAME>
