@@ -51,3 +51,4 @@
   -`git rebase --continue`: move to next commit in rebase
   -`git rebase --abort`: undo git rebase step
 
+- main commit 1
