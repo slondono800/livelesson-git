@@ -61,4 +61,5 @@
 
 - A `merge` on the remote is called a "pull request" or "merge request"
     - `git push <WHERE> <WHAT>`
+    - To update a PR, we make the changes to the branch locally and re-`push`
     
