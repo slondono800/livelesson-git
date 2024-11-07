@@ -54,3 +54,7 @@
     -you can make multiple commit changes here, e.g., `squash`/`s`
     -`git rebase -i <HASH>^`: use ^ to include that commit in interactive rebase
 -`git stash` or `git commit`: to save work before moving branches
+   - `stash` is temporary
+   - `git stash list`: see yoyr stashed commits
+   - `git stash apply`: apply your last stashed commit
+   - `git stash clear`: clean up your stashes
